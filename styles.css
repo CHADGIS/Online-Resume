@@ -1,0 +1,68 @@
+body{
+    background-color: #EFE4D2;
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+}
+#resume{
+    position: relative;
+    background-color: rgb(217, 217, 222);
+    width: 900px;
+    border-radius: 10px;
+}
+
+.profile-container{
+    background-color: #3B38A0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-wrap: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+}
+
+.name{
+    margin-left: 2rem;
+    align-self: center;
+    color: white;
+}
+#jobrole{
+    text-decoration: underline;
+    text-align: left;
+}
+
+.picture{
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.picture img{
+    float: right;
+    border: 2px solid grey;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 1px grey;
+}
+
+
+#contents-summary{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+hr{
+    box-shadow: 2px 2px 0.2px 0.1px;
+}
+
+@media screen and (max-width : 668px) {
+    .picture img{
+    border: 2px solid grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 1px grey;
+}   
+}
