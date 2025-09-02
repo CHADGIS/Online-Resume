@@ -60,13 +60,13 @@ hr{
 @media screen and (max-width : 668px) {
 
     .picture{
-        margin-right: 1.3rem;
+        margin-right: 0.6rem;
     }
     .picture img{
     
     border: 2px solid grey;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 0px 0px 6px 1px grey;
 }   
